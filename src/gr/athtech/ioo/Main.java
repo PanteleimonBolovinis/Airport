@@ -6,5 +6,7 @@ public class Main {
         f1.setDepAirport("athens");
         f1.setArAirport("california");
         System.out.println(f1.toString());
+        System.out.println(f1.getArAirport());
+        System.out.println(f1.getDepAirport());
     }
 }
